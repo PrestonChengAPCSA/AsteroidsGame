@@ -19,4 +19,12 @@ public class Spaceship extends Floater
       xCorners[3] = -2;
       yCorners[3] = 0;
     }
+    
+      public double getX(){
+    return myCenterX;
+  }
+  
+  public double getY(){
+    return myCenterY;
+  }
 }
